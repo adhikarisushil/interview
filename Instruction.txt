@@ -1,0 +1,14 @@
+To Run the application first build the application and once the executable is ready
+Run the executable with/without arguments (Arguments are case senstive)
+
+	To get all routes, Run the program without argument.
+		main.exe
+
+	To get unique routes, Run the program with 'Unique' string as argument
+		main.exe Unique
+
+	To get all user routes, Run the program with 'UserId xx' where xx is userId
+		main.exe UserId 42
+
+	To get user routes by services, Run the program with 'UserId xx ...' where ... is list of services separated by space
+		eg main.exe UserId 42 Strava Komoot
